@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.23.0",
+    "buefy": "^0.9.14",
     "core-js": "^3.18.3",
     "vue": "^3.2.20",
     "vue-axios": "^3.3.7",
