@@ -1,0 +1,20 @@
+.material-design-icon {
+  display: flex;
+  align-items: center;
+
+  & > .material-design-icon__svg {
+    bottom: 0;
+  }
+}
+
+  // .material-design-icon {
+  //   &.icon-2x {
+  //     height: 2em;
+  //     width: 2em;
+
+  //     &>.material-design-icon__svg {
+  //       height: 2em;
+  //       width: 2em;
+  //     }
+  //   }
+  // }

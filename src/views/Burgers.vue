@@ -1,14 +1,21 @@
 <template>
-  <div>
-    <h1>Completa aquí el desafío</h1>
-  </div>
+  <NavBar />
+  <!-- <div>
+    <FilterBar />
+    <BurgerList />
+  </div> -->
+  <Footer />
 </template>
 
 <script>
+import NavBar from '@/components/NavBar/NavBar.vue'
+import Footer from '@/components/Footer.vue'
+
 export default {
   name: 'Burgers',
+  components: {
+    NavBar,
+    Footer,
+  }
 }
 </script>
-
-<style>
-</style>

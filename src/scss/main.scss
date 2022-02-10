@@ -1,0 +1,26 @@
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/functions";
+
+/* -------------------------------------------------------------------------- */
+/*                              Custom variables                              */
+/* -------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+$family-coming-soon: 'Coming Soon', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Coming+Soon&display=swap');
+$family-baloo-2: 'Baloo 2', cursive;
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Baloo+2:wght@500&family=Coming+Soon&display=swap');
+$family-abel: 'Abel', sans-serif;
+
+/* -------------------------------------------------------------------------- */
+/*                               Bulma variables                              */
+/* -------------------------------------------------------------------------- */
+$primary: #fb8c00;
+$primary-invert: $white;
+
+$family-sans-serif: $family-abel;
+$family-primary: $family-abel;
+$family-secondary: $family-coming-soon;
+
+@import "~bulma";

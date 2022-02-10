@@ -8,15 +8,20 @@
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+
+  /* Utilizar todo el alto de la ventana si el contenido es más pequeño (útil para empujar el footer) */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 #nav {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   padding: 30px;
+  color: #2c3e50;
 }
 
 #nav a {
