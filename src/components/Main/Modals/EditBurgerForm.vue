@@ -179,7 +179,7 @@ export default {
         id: this.editId,
         name: this.editName,
         calories: this.editCalories,
-        ingredients: this.editIngredients.split(/\s+/),
+        ingredients: this.editIngredients.split(/[\r\n]+/),
       };
     },
 
