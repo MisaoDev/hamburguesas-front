@@ -10,9 +10,8 @@
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
 
-  /* Utilizar todo el alto de la ventana si el contenido es más pequeño (útil para empujar el footer) */
+  /* If content is smaller, use the entire viewpoint height (useful for pushing the footer to the bottom) */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +21,7 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   padding: 30px;
   color: #2c3e50;
+  text-align: center;
 }
 
 #nav a {

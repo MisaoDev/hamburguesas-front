@@ -1,7 +1,7 @@
 <template>
   <div class="navbar-brand is-size-3 is-align-items-center">
-    <router-link to="/hamburguesas" class="navbar-item">
-      <HamburgerIcon size="50" />
+    <router-link to="/hamburguesas" class="navbar-item is-flex">
+      <HamburgerIcon :size="50" />
       <span class="is-family-secondary pt-2">Hamburguesitas</span>
     </router-link>
   </div>
@@ -19,5 +19,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 </style>
