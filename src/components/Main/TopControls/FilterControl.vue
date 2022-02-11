@@ -1,32 +1,33 @@
 <template>
   <div class="field filter-field">
-
     <div class="control has-icons-left">
-      <input type="text" name="filter" id="filter" class="input" placeholder="Filtrar..." v-model="filterQuery"  />
+      <input
+        type="text"
+        name="filter"
+        id="filter"
+        class="input"
+        placeholder="Filtrar..."
+        v-model="query"
+      />
       <span class="icon is-left">
         <i class="fas fa-search"></i>
       </span>
     </div>
 
     <p class="help">Escribe ingredientes o el nombre de tu hamburguesa</p>
-    
   </div>
 </template>
 
 <script>
 export default {
-  name: 'FilterBar',
-  emits: ['queryChanged'],
+  name: 'FilterControl',
 
-  data() {
-    return {
-      filterQuery: ''
-    }
-  },
-
-  watch: {
-    filterQuery(newQuery) {
-      this.$emit('queryChanged', newQuery);
+  computed: {
+    query: {
+      get() { return this.$store.state.filterQuery },
+      set(v) {
+        return this.$store.commit('UPDATE_QUERY', { query: v });
+      }
     }
   }
 }

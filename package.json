@@ -17,7 +17,8 @@
     "vue": "^3.2.20",
     "vue-axios": "^3.3.7",
     "vue-material-design-icons": "^5.0.0",
-    "vue-router": "^4.0.12"
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.14",
