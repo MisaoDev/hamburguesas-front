@@ -1,2 +1,0 @@
-export const ADD_BURGER = 'ADD_BURGER';
-export const FETCH_BURGERS_ERROR = 'FETCH_BURGERS_ERROR';
